@@ -1,0 +1,18 @@
+{
+	"name": "email-weekly",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_ENV=dev node index.js",
+		"watch": "NODE_ENV=dev nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"express": "^4.17.1",
+		"node-mailjet": "^3.3.1"
+	}
+}
